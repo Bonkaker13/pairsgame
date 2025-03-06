@@ -1,0 +1,39 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.grid {
+  height: 450px;
+  width: 450px;
+}
+h3 {
+  position: fixed;
+  top: 50px;
+  left: 50px;
+}
+h4 {
+  position: fixed;
+  top: 75px;
+  left: 50px;
+}
+.gameContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  width: 500px;
+  background-color: blue;
+  border-radius: 10px;
+}
+.message {
+  width: 600px;
+  height: 25px;
+  background-color: #f11225;
+}
+.fade {
+  transition: 2s ease-in-out;
+}
